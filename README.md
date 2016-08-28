@@ -29,6 +29,9 @@ Building and Installing
 Information on building and installing Erlang/OTP can be found
 in the [$ERL_TOP/HOWTO/INSTALL.md] [5] document.
 
+ ./configure --prefix=/usr/local/ --with-ssl --enable-threads --enable-smp-suort --enable-kernel-poll --enable-hipe --without-javac
+
+
 Contributing to Erlang/OTP
 --------------------------
 
